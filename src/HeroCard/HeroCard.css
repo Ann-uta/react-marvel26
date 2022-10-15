@@ -1,0 +1,14 @@
+.hero-item {
+    width: 20%;
+    margin: 15px;
+    text-align: justify;
+    border: 0.5px solid gray;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.hero-item img {
+    width: 100%;
+    border-radius: 15px;
+    height: 280px;
+}
