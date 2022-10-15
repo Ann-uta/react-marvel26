@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       {
         heroes.map ((hero) =>
-        <HeroCard id={hero.id}
+        <HeroCard key = {hero.id}
+        id={hero.id}
         img={hero.img}
         name={hero.name}
         universe={hero.universe}
